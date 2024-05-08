@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>توقع مجموع الثانوية العامة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>توقع مجموع الثانوية العامة</h1>
+        <form id="inputForm">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" required>
+            <label for="dob">تاريخ الميلاد:</label>
+            <input type="date" id="dob" required>
+            <label for="college">اختر الكلية:</label>
+            <select id="college">
+                <option value="هندسة">هندسة</option>
+                <option value="طب">طب</option>
+                <option value="صيدلة">صيدلة</option>
+                <option value="تجارة">تجارة</option>
+                <option value="آداب">آداب</option>
+                <option value="حقوق">حقوق</option>
+                <option value="علوم">علوم</option>
+                <option value="تربية">تربية</option>
+                <option value="فنون جميلة">فنون جميلة</option>
+                <option value="زراعة">زراعة</option>
+            </select>
+            <button type="submit">توقع</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
